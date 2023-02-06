@@ -1,4 +1,4 @@
-**Genotype--environment association (GEA) Methods**
+# Genotype--environment association (GEA) Methods #
 
 In this document, the following methods for GEA are reviewed:
 categorical tests, logistic regressions, matrix correlations, general
@@ -547,9 +547,7 @@ Examples:
 
 Reference: Láruson et al. 2021
 <https://onlinelibrary.wiley.com/doi/full/10.1111/eva.13354>
-![A test image](GEA_methods_table.jgeg)
-![](media/image1.emf){width="7.498333333333333in"
-height="7.138333333333334in"}
+
 
 <table>
 <colgroup>
