@@ -15,7 +15,6 @@ gebv_out_f_extention <-  "_prediction_simulation_bc1s4_gebv_3.txt"
 percentage_inds =  20 # percentage of decadents to take in bc1s3 and bc1s4
 bc1_n <- 250
 bc1s2_n <-   250
-# bc1s3_n <- 1 # 50 
 ## write allele file with marker names as in map file
 ReplaceMarkerNames <- function (allele_file){
    my_alleles <- read.table(allele_file, sep = "\t" , header = TRUE ,colClasses = c("character","character"))
