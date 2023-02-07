@@ -1,7 +1,6 @@
 ### 1_GEA_breeding_scheme_genomicSimulation #### 
 start_time <- Sys.time()
 print(start_time)
-# library(lfmm)
 library(LEA)
 library(vcfR)
 library(genomicSimulation)
@@ -9,9 +8,9 @@ library(data.table)
 ##############
 ## settings ##
 ##############
-args <- commandArgs(trailingOnly = TRUE) # TRUE
+args <- commandArgs(trailingOnly = TRUE) 
 print(args)
-seed_num = args[1] # 1231227 #
+seed_num = args[1] 
 tested_trait <-  "sal_opt" # "temp_opt" #
 print(tested_trait)
 
